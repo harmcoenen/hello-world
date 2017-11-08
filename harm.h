@@ -1,8 +1,3 @@
-void main(void)
-{
-	int i=0
+nclude <stdio.h> 
 
-		i=i+2;
-
-	return();
-}
+void main();

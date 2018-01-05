@@ -1,0 +1,18 @@
+dist: trusty
+
+sudo: false
+
+language: c++
+
+os: linux
+
+compiler:
+  - gcc
+  - clang
+
+script:
+  - g++ myworld.cpp
+  - ./a.out
+  
+notifications:
+  email: false

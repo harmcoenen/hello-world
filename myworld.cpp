@@ -1,12 +1,8 @@
-#include "harm.h"
-
-#define NO_COMPILER=true
-
-void main(void)
+#include <iostream>
+ 
+int main()
 {
-	int i=0
+  std::cout << "Hello, my dear world." << std::endl;
 
-		i=i+2;
-
-	return();
+  return 0;
 }

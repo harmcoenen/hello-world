@@ -11,8 +11,8 @@ compiler:
   - clang
 
 script:
-  - g++ myworld.cpp
-  - ./a.out
+  - g++ myworld.cpp -o hello_my_world
+  - ./hello_my_world parameter1 192819 drie 4 five 666
   
 notifications:
   email: false
